@@ -29,6 +29,9 @@ canvas {
   border: 3px solid white;
   margin-bottom: 15px;
 }
+h1{
+  color: #f0e7e6;
+}
 
 /*------------------Style of score--------------*/
 .text {
