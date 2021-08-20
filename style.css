@@ -47,20 +47,19 @@ h1{
 .controls{
     display: flex;
     margin: auto;
-    cursor: pointer;
     width: 100px;
     color:#f0e7e6;
     font-size: 20px;
 
 }
-
-.arrows{
-  height: auto;
-  align-items: center;
+img{
+  width: 100px;
+  height: 100px;
 }
 span{
-  width: 300px;
-  height: auto;
+  width: 100px;
+  height: 100px;
   color: #f0e7e6;
+  
 }
 
