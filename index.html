@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Tetris-Basic</title>
-</head>
-<body>
-    
+<html lang="en">
 
-    <canvas id="tetris" width="240" height="400"></canvas>
-    
-    <script src="./script.js"></script>
-    
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Odibee+Sans&display=swap" rel="stylesheet" />
+    <title>Tetris</title>
+</head>
+
+<body>
+
+    <h1 class="title">Tetris</h1>
+
+    <!-------------------Canvas------------------------>
+    <canvas width="200" height="400"></canvas>
+    <!------------------Player's tag-------------------->
+    <p class="name" id="playerName"></p>
+    <!------------------Score-------------------->
+    <p class="text">Score: <span class="score">0</span></p>
+    <!---------------play tetris button------------------>
+    <button class="playButton">Play tetris</button>
+<!-- 
+    <h2>Controles</h2><br>
+    <div class="arrows">
+      <span>&#x2190;</span>  
+      <span>&#x2191;</span>  
+      <span> &#x2192;</span>  
+      <span>&#x2193;</span> 
+    </div> -->
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
