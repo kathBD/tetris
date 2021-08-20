@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rosybrown;
+  background-color: rgb(140, 58, 135);
   margin: 0;
   height: 90vh;
   display: flex;
@@ -34,7 +34,7 @@ canvas {
 .text {
   text-transform: uppercase;
   font-size: 18px;
-  color: #000;
+  color: white;
 }
 /*--------------------Style of 0----------------*/
 .score {
@@ -61,16 +61,23 @@ canvas {
   margin-bottom: 5px;
 }
 
-/* .controls {
+
+.controls{
   display: flex;
   margin: auto;
-  cursor: pointer;
   width: 100px;
-  color: #f0e7e6;
-  font-size: 50px;
-}
+  color:#f0e7e6;
+  font-size: 20px;
 
-.arrows {
-  height: auto;
-  align-items: center;
-} */
+}
+img{
+width: 100px;
+height: 100px;
+}
+span{
+width: 200px;
+height: 200px;
+color: #f0e7e6;
+
+
+}
