@@ -390,13 +390,13 @@ document.addEventListener("keydown", (event) => {
       break;
   }
 });
-
+// event creation the user puts his name
 
 buttonPlay.addEventListener("click", () => {
   const name = prompt("Digita tu nombre");
   playerName.textContent = `Player: ${name}`
-
   drop();
+  
 });
 
 //Start game
