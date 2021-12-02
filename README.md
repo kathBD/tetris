@@ -3,7 +3,7 @@ Tetris
 Juego realizado en HTML - CSS y JS
 ![tetris](https://i.ibb.co/0sNKmRV/tetris.jpg)
 
-Mira Deployment para conocer como desplegar el proyecto.🚀
+Mira Deployment del proyecto.🚀
 + https://tetris-team.netlify.app/
  ***
  Autores ✒️
